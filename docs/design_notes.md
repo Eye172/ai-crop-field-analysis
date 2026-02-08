@@ -5,4 +5,10 @@
 - Each sector is analyzed independently.
 - Results are reconstructed into a unified annotated field map.
 
-Stage 1 focuses on correctness, modularity, and interpretability rather than model complexity.
+## Multispectral TIFF Handling
+
+Some dataset images contain more than three channels (e.g., RGB + NIR).
+This caused OpenCV drawing functions to fail during visualization on the program's step5.
+
+The issue was resolved by using only the first three channels for display,
+while keeping all channels for analysis.
