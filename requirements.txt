@@ -1,0 +1,5 @@
+numpy
+torch>=2.0
+torchvision
+rasterio
+matplotlib
