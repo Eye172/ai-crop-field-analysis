@@ -1,6 +1,6 @@
 # AgroFly — drone-based crop field analysis
 
-AgroFly is a two-person student project on precision agriculture in Kazakhstan. The idea: a scout drone images a field, a neural network classifies every ~2×2 m tile, and the result is a field map that shows where treatment is needed. The long-term concept adds a second, spraying drone that treats only those tiles instead of the whole field.
+AgroFly is a two-person engineering project on precision agriculture in Kazakhstan. The idea: a scout drone images a field, a neural network classifies every ~2×2 m tile, and the result is a field map that shows where treatment is needed. The long-term concept adds a second, spraying drone that treats only those tiles instead of the whole field.
 
 This repository holds the software and ML side. Landing page: [agrofly-website-1](https://github.com/Eye172/agrofly-website-1).
 
@@ -90,5 +90,7 @@ The plan is Agro-as-a-Service: the team flies the field and delivers a treatment
 
 ## Team
 
-- **Akhmer Shakhnazar** — team lead, software and ML (model, notebooks, website)
+Developed in Kazakhstan in 2026. The current software and ML work is paused for data and model reassessment.
+
+- **[Shakhnazar Akhmer](https://github.com/Eye172)** — team lead, software and ML (model, notebooks, website)
 - **Bauyrzhan Nurali** — hardware engineer (drone design and build)
